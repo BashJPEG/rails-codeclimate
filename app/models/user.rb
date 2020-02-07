@@ -14,6 +14,62 @@ class User < ApplicationRecord
       transitions from: :executing, to: :finished
     end
   end
+
+  def long_method_2(a, b, c, d, e, f, g)
+
+
+
+    eval("puts 'test'")   
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")         
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+  end
+
+
+  def long_method
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+  end
+
+  def devide_by_zero
+    email/0
+  end
 end
 
 
