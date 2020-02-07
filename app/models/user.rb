@@ -14,6 +14,31 @@ class User < ApplicationRecord
       transitions from: :executing, to: :finished
     end
   end
+
+
+  def long_method
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+  end
 end
 
 
