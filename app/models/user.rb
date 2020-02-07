@@ -66,6 +66,10 @@ class User < ApplicationRecord
     eval("puts 'test'")
     eval("puts 'test'")
   end
+
+  def devide_by_zero
+    email/0
+  end
 end
 
 
