@@ -15,6 +15,33 @@ class User < ApplicationRecord
     end
   end
 
+  def long_method_2(a, b, c, d, e, f, g)
+
+
+
+    eval("puts 'test'")   
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")         
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+  end
+
 
   def long_method
     eval("puts 'test'")
